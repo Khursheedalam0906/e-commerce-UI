@@ -1,0 +1,76 @@
+.userprofile-outercontainer {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile {
+  background-color: #ffbb00;
+  padding: 10px;
+  border-radius: 10px;
+  width: 600px;
+}
+
+.user-profile .heading {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  border-bottom: 3px solid white;
+}
+
+.data-row {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.data-row span {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid;
+  font-size: 18px;
+}
+
+/* .update-password {
+  background-color: rgb(65, 65, 65);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.update-password p {
+  font-size: 30px;
+  color: #ffbb00;
+}
+
+ */
+
+.logout-btn {
+  background-color: rgb(255, 187, 0);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.logout-btn:hover {
+  background-color: red;
+  color: rgb(255, 187, 0);
+  cursor: pointer;
+}
+
+button {
+  margin: 1px 5px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: #ffbb00;
+  border-radius: 10px;
+}
